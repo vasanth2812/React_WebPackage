@@ -1,30 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import { Button } from 'reactstrap';
+import { Route } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import HomePage from "./HomePage/HomePage";
+import LoginPage from "./LoginPage/LoginPage";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-      Favorite Food: <FontAwesomeIcon icon="stroopwafel" />
-      <Button>React</Button>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => 
+<div>
+  <Route path="/" exact component={HomePage} />
+  <Route path="/login" exact component={LoginPage} />
+</div>;
 
 export default App;
