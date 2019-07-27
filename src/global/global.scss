@@ -1,0 +1,101 @@
+.center {
+    margin: 0 auto;
+    display: table;
+  }
+  .mg-20 {
+    margin-top: 20px;
+  }
+  .mg-t-20 {
+    margin-top: 20px;
+  }
+  .required-label {
+    color: red;
+    padding-left: 3px;
+  }
+  .react-datepicker-wrapper,
+  .react-datepicker__input-container {
+    width: 100% !important;
+  }
+  .parent {
+    position: relative;
+    background-size: 100% 100%;
+    overflow: hidden;
+  }
+  .clearfix:after {
+    content: " "; /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+  }
+  .bg-colo-lg-red {
+    background-color: #f57373;
+  }
+  .bg-color-lg-blue {
+    background-color: #73c5f5;
+  }
+  .bg-color-lg-pk {
+    background-color: #da83e8;
+  }
+  .bg-color-lg-org {
+    background-color: #fb5447;
+  }
+  /*admin-dashboard*/
+  .admin-dashboard-icons {
+    position: relative;
+    width: 100%;
+  }
+  .admin-dashboard-icons > ul {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    list-style: none;
+  }
+  .admin-dashboard-icons > ul > li {
+    position: relative;
+    float: left;
+    margin: 15px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .admin-dashboard-icons > ul > li > .icon-eleme {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .admin-dashboard-icons > ul > li > .icon-eleme > a {
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    height: 150px;
+    width: 150px;
+  }
+  .admin-dashboard-icons > ul > li:hover i {
+    // -webkit-transform: rotateZ(360deg);
+    // -moz-transform: rotateZ(360deg);
+    // transform: rotateZ(360deg);
+    transition: 0.9s;
+    transform: rotateZ(360deg);
+  }
+  
+  /*end admin-dashboard*/
+  /*form control*/
+  input,
+  select {
+    height: 35px !important;
+  }
+  /*end form-control*/
+  /*label*/
+  label {
+    font-size: 14px !important;
+  }
+  /**/
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1415px !important;
+    }
+  }
+  
