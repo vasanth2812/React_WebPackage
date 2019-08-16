@@ -30,7 +30,7 @@ class Header extends React.Component {
         <Navbar color="light" light expand="md">
           <div className="container">
             <NavbarBrand tag={Link} to="/">
-              NanoPrecise
+              Home
             </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
